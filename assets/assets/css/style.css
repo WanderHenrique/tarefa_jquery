@@ -1,0 +1,32 @@
+#lista-tarefas {
+  width: 200px;
+  margin: 0 auto;
+  width: 600px;
+  max-width: 600px; /* Largura máxima da caixa definida para 300px */
+}
+
+#nova-tarefa {
+  width: 100%;
+  height: 30px;
+  border: 1px solid #000;
+}
+
+#adicionar-tarefa {
+  width: 100%;
+  height: 30px;
+  background-color: #ccc;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+
+#tarefas {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  max-height: 170px; /* Altura da lista ajustada dentro da caixa */
+}
+
+#tarefas li {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
